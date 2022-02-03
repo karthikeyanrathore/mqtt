@@ -4,4 +4,14 @@ pki public
 MQTT
 Django
 Docker & Docker compose
-git lab cli
+gitlab cli
+
+
+
+TODO
+====
+MQTT
+pki public
+Django-restframe work
+pytest fixture & mock
+
