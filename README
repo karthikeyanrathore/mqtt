@@ -1,18 +1,9 @@
-Flask-SQLAlchemy
-Python unit testing with Pytest and Mock
-pki public
 MQTT
-Django
-Docker & Docker compose
-gitlab cli
-
-
-
-TODO
 ====
-MQTT
-pki public
-flask-sqlalchemy
-Django-restframe API with pytest 
-pytest fixture & mock
+Mosquitto broker for MQTT: for mac 
+client: paho.mqtt.client (python3)
+
+steps:
+1. subscribe: ./listin_data
+2. publish data: ./publish_data
 
