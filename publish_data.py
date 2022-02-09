@@ -21,7 +21,7 @@ def on_disconnect(client, userdata, flags, rc=0):
 MQTT_broker="192.168.29.224"
 
 # client
-client = mqtt.Client()
+client = mqtt.Client(client_id="cfc")
 
 # call back function
 client.on_connect = on_connect

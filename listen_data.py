@@ -18,7 +18,7 @@ def on_message(client, obj, msg):
   print("MQTT topic: %s and data: %s" % (msg.topic , msg.payload.decode('utf-8', 'ignore')))
 
 
-client = mqtt.Client()
+client = mqtt.Client(client_id="bfb")
 
 # call back functions
 client.on_connect = on_connect
