@@ -11,3 +11,5 @@ steps:
 1. subscribe: ./listin_data
 2. publish data: ./publish_data
 
+
+Client -> broker -> c1, c2, c3 (subbbed) ... -> databases ()
