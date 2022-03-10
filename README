@@ -1,0 +1,21 @@
+MQTT
+====
+Mosquitto broker for MQTT: for mac 
+client: paho.mqtt.client (python3)
+
+using Mosquitto client for mac
+1. mosquitto_sub -t "tech" # subbed to topic "tech"
+2. mosquitto_pub -h 192.168.29.224 -t "tech" -m "mfo" # published mssg for the topic "tech"
+
+steps:
+1. subscribe: ./listin_data
+2. publish data: ./publish_data
+
+
+Client -> broker -> c1, c2, c3 (subbbed) ... -> databases ()
+
+
+PKI
+===
+# https://www.youtube.com/watch?v=t0F7fe5Alwg&ab_channel=RadwanoVetch
+
