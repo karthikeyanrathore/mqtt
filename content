@@ -7,5 +7,3 @@ Django-restframe API with pytest
 pytest fixture & mock
 docker && docker-compose
 gitlab cli (continous integration)
-
-
